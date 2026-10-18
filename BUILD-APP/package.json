@@ -1,0 +1,10 @@
+{
+  "name": "build-app",
+  "version": "1.0.0",
+  "description": "Script runner untuk build dan dev aplikasi Tauri",
+  "scripts": {
+    "dev": "cargo run dev",
+    "build": "powershell -ExecutionPolicy Bypass -File ./build.ps1",
+    "build:debug": "powershell -ExecutionPolicy Bypass -File ./build.ps1 debug"
+  }
+}

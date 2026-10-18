@@ -1,0 +1,14 @@
+{
+  "name": "kit-app-rust",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kit App Rust root project orchestrator",
+  "scripts": {
+    "dev": "npm run build:ui && npm run build:dll && npm run dev:app",
+    "build": "npm run build:ui && npm run build:dll && npm run build:app",
+    "build:ui": "npm run build --prefix BUILD-UI",
+    "build:dll": "npm run build --prefix BUILD-DLL",
+    "build:app": "npm run build --prefix BUILD-APP",
+    "dev:app": "npm run dev --prefix BUILD-APP"
+  }
+}

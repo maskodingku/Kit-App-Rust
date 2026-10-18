@@ -1,0 +1,11 @@
+[package]
+name = "kit_app_rust_dll"
+version = "0.1.0"
+edition = "2021"
+description = "Rust cdylib for Kit App Rust"
+
+[lib]
+name = "kit_app_rust"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]

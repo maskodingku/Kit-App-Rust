@@ -1,0 +1,10 @@
+{
+  "name": "build-dll",
+  "version": "0.1.0",
+  "description": "Script runner untuk build Rust CDYLIB DLL ke ASSETS/dll",
+  "scripts": {
+    "build": "powershell -ExecutionPolicy Bypass -File ./build.ps1",
+    "build:debug": "powershell -ExecutionPolicy Bypass -File ./build.ps1 debug",
+    "test": "cargo test"
+  }
+}
